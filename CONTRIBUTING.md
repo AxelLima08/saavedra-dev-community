@@ -13,8 +13,8 @@ Si ya sabés manejarte, los pasos son:
 
 1. **Forkeá** este repositorio (copia el repo en tu cuenta de GitHub)
 2. **Cloná** tu fork en tu computadora
-3. Colocá tu solución en la carpeta `soluciones/` del desafío correspondiente
-4. Nombrá tu archivo como `solucion-tuNombre.ino` o `solucion-tuNombre.cpp`
+3. Colocá tu solución en el archivo `soluciones.cpp` del desafío correspondiente
+4. Completá el archivo `EXPLICACION.md` de ese desafío incluyendo el link de tu simulación y los detalles solicitados
 5. Subí los cambios y abrí un **Pull Request**
 
 ---
