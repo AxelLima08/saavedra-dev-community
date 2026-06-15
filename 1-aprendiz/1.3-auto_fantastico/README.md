@@ -6,11 +6,16 @@
 ---
 ## 📌 Consigna  
 
-Escribe un programa que controle 4 LEDs conectados a pines digitales, con el objetivo de crear un efecto de ola de ida y vuelta. (explicacion mas tecnica)
+Escribe un programa que controle 4 LEDs conectados a pines digitales, con el objetivo de crear un efecto de ola de ida y vuelta.
 
 ### Enfoque Técnico
 
-La secuencia lógica debe ser estrictamente secuencial y unitaria, manteniendo un solo LED activo a la vez siguiendo el orden 1-2-3-4-3-2-1, donde cada estado de encendido tendrá una duración fija de 200 ms controlada mediante la función delay(). Todos los pines utilizados deberán quedar explícitamente declarados como salidas en el bloque setup() utilizando pinMode(), asegurando que el flujo de transiciones sea fluido y continuo sin repeticiones dobles en los extremos de la secuencia.
+La secuencia debe seguir el orden **1→2→3→4→3→2→1**, manteniendo
+un solo LED activo a la vez.
+
+Cada estado de encendido tendrá una duración fija de **200 ms**
+controlada con `delay()`. Todos los pines deben quedar declarados
+explícitamente como salidas en `setup()` usando `pinMode()`.
 
 
 ---
@@ -25,7 +30,7 @@ La secuencia lógica debe ser estrictamente secuencial y unitaria, manteniendo u
 ## 💡 Hints
 
 - Presta atención al orden de la secuencia proporcionada. Al llegar al cuarto LED, el siguiente en encenderse debe ser el tercero. Si notas que el primer o el último LED parpadean el doble de tiempo que el resto, revisa la secuencia de transiciones en tu código.
-- Presta atención al orden de la secuencia proporcionada. Al llegar al cuarto LED, el siguiente en encenderse debe ser el tercero. Si notas que el primer o el último LED parpadean el doble de tiempo que el resto, revisa la secuencia de transiciones en tu código.
+- Recuerda que para lograr un efecto visual fluido y unitario, debes asegurarte de apagar el LED actual antes (o en el mismo instante) de encender el siguiente.
 
 ---
 
