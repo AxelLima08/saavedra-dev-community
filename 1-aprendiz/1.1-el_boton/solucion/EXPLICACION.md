@@ -1,4 +1,4 @@
-# 🚀 Solución al Desafío: [Blink]
+# 🚀 Solución al Desafío: [El bóton]
 
 ### 👤 Autor: @[TuUsuarioDeGitHub]
 
