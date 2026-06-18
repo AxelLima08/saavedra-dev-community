@@ -31,4 +31,4 @@ Crea un programa que imprima en el monitor serie 'Hola mundo' una sola vez. En e
 2. En la carpeta `soluciones/` encontraras un archivo `solucion.cpp` pegar la respuesta ahí y completa `EXPLICACION.md`.
 3. Abrí un **Pull Request**
 
-¿Es tu primera vez usando Git y GitHub? 👉 [Guía para principiantes](https://docs.google.com/document/d/1xKinkK6HFmD4CzjkcRy7lE9HHumOA2GFtXmhV6OhRgw/edit?tab=t.0)
+¿Es tu primera vez usando Git y GitHub? 👉 [**Guía de Git y GitHub para principiantes**](../../GUIA_PARA_PRINCIPIANTES.md)

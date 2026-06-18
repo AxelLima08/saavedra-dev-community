@@ -56,7 +56,7 @@ Para más detalles, consultá el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ¡No te preocupes! Nadie nace sabiendo. Preparamos una guía paso a paso explicada de forma simple para que aprendas a usar GitHub y puedas subir tus soluciones sin problemas:
 
-👉 [**Guía de Git y GitHub para principiantes**](https://docs.google.com/document/d/1xKinkK6HFmD4CzjkcRy7lE9HHumOA2GFtXmhV6OhRgw/edit?tab=t.0) 📝
+👉 [**Guía de Git y GitHub para principiantes**](GUIA_PARA_PRINCIPIANTES.md)
 
 ---
 
