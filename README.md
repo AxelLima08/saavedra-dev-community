@@ -7,24 +7,24 @@
 
 ---
 
-## 📌 ¿De qué trata este proyecto?
+## ¿De qué trata este proyecto?
 
 Este es un banco de desafíos técnicos. Vas a encontrar problemas de distintos niveles para resolver utilizando entornos como **Arduino IDE** o **PlatformIO**. La idea es que puedas clonar el proyecto, resolver los retos a tu ritmo y subir tus soluciones para compartirlas con la comunidad de la escuela.
 
 ---
 
-## 📊 Escala de Dificultad
+## Escala de Dificultad
 
 Los desafíos están clasificados para que puedas medir tu progreso:
 
 | Nivel | Rango
 |---|---
-| 🟢 **Aprendiz** | 1.0 – 1.99
-| 🟡 **Competente** | 2.0 – 2.99
-| 🟠 **Avanzado** | 3.0 – 3.99
+|  **Aprendiz** | 1.0 – 1.99
+|  **Competente** | 2.0 – 2.99
+|  **Avanzado** | 3.0 – 3.99
 ---
 
-## 📁 Estructura del repositorio
+##  Estructura del repositorio
 
 ```
 saavedra-dev-community/
@@ -47,7 +47,7 @@ Cada desafío tiene su propia carpeta con:
 
 1. **Forkeá** este repositorio
 2. **Cloná** tu fork en tu computadora
-3. Colocá tu código en la carpeta `soluciones/` del desafío correspondiente, nombrando tu archivo como `solucion-tuNombre.ino` o `solucion-tuNombre.cpp`
+3. Colocá tu código en el archivo `soluciones.cpp` de la carpte `solucion/` del ejercicio correspondiente
 4. Subí los cambios y abrí un **Pull Request**
 
 Para más detalles, consultá el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
