@@ -8,11 +8,10 @@
 
 Escribe un programa que controle 4 LEDs conectados a pines digitales, con el objetivo de crear un efecto de ola de ida y vuelta.
 
-### Enfoque Técnico
-
+### Más especifico
+---
 La secuencia debe seguir el orden **1→2→3→4→3→2→1**, manteniendo
-un solo LED activo a la vez.
-
+un solo LED activo a la vez.    
 Cada estado de encendido tendrá una duración fija de **200 ms**
 controlada con `delay()`. Todos los pines deben quedar declarados
 explícitamente como salidas en `setup()` usando `pinMode()`.
@@ -24,6 +23,7 @@ explícitamente como salidas en `setup()` usando `pinMode()`.
 
 - Solo se permite usar el framework de Arduino
 - No se permite usar librerías externas
+- Usar la placa arduino uno
 
 ---
 
@@ -37,8 +37,7 @@ explícitamente como salidas en `setup()` usando `pinMode()`.
 ## 📁 ¿Cómo subir tu solución?
 
 1. Forkeá este repositorio
-2. Colocá tu solución en la carpeta `soluciones/`
-3. Nombrá tu archivo como `solucion-tuNombre.ino` o `solucion-tuNombre.cpp`
-4. Abrí un **Pull Request**
+2. En la carpeta `soluciones/` encontraras un archivo `solucion.cpp` pegar la respuesta ahí y completa `EXPLICACION.md`.
+3. Abrí un **Pull Request**
 
 ¿Es tu primera vez usando Git y GitHub? 👉 [Guía para principiantes](https://docs.google.com/document/d/1xKinkK6HFmD4CzjkcRy7lE9HHumOA2GFtXmhV6OhRgw/edit?tab=t.0)
