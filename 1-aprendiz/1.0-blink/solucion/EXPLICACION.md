@@ -1,6 +1,6 @@
 # 🚀 Solución al Desafío: [Blink]
 
-### 👤 Autor: @[TuUsuarioDeGitHub]
+### 👤 Autor: @AJAJJA
 
 ---
 
@@ -13,6 +13,6 @@
 
 ## Explicación
 
-> **Escribí acá tu explicación...**
+> **no**
 
 ---
