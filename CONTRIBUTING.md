@@ -7,7 +7,7 @@ Gracias por ser parte de **saavedra-dev-community**. Este archivo explica cómo 
 ## 🛠️ ¿Cómo enviar una solución?
 
 Si nunca usaste Git o GitHub, consultá primero la guía para principiantes:
-👉 [Guía de Git y GitHub para principiantes](https://docs.google.com/document/d/1xKinkK6HFmD4CzjkcRy7lE9HHumOA2GFtXmhV6OhRgw/edit?tab=t.0)
+👉 [**Guía de Git y GitHub para principiantes**](GUIA_PARA_PRINCIPIANTES.md)
 
 Si ya sabés manejarte, los pasos son:
 
