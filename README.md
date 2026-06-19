@@ -47,7 +47,7 @@ Cada desafío tiene su propia carpeta con:
 
 1. **Forkeá** este repositorio
 2. **Cloná** tu fork en tu computadora
-3. Colocá tu código en el archivo `soluciones.cpp` de la carpte `solucion/` del ejercicio correspondiente
+3. Colocá tu código en el archivo `soluciones.cpp` de la carpeta `solucion/` del ejercicio correspondiente
 4. Subí los cambios y abrí un **Pull Request**
 
 Para más detalles, consultá el archivo [CONTRIBUTING.md](CONTRIBUTING.md).

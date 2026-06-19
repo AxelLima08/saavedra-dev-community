@@ -9,7 +9,7 @@
 Escribe un programa que controle 4 LEDs conectados a pines digitales, con el objetivo de crear un efecto de ola de ida y vuelta.
 
 ### Más especifico
----
+
 La secuencia debe seguir el orden **1→2→3→4→3→2→1**, manteniendo
 un solo LED activo a la vez.    
 Cada estado de encendido tendrá una duración fija de **200 ms**
