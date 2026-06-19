@@ -1,4 +1,4 @@
-// Archivo para la solución del ejercicio Blink 2 la venganza
+// Archivo para la solución del ejercicio El LDR
 // autor: Saavedra Dev Community
 void setup(){
 
