@@ -1,4 +1,4 @@
-// Archivo para la solución del ejercicio nombre
+// Archivo para la solución del ejercicio El LED RGB
 // autor: Saavedra Dev Community
 void setup(){
 
