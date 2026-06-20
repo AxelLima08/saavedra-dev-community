@@ -121,7 +121,11 @@ git push
 ```
 Esto sube el commit a tu fork del repositorio en GitHub. Si todo salió bien, al entrar a tu fork (`https://github.com/NombreDeUsuario/saavedra-dev-community`) vas a poder ver tus cambios reflejados.
 
-### 7. Abrí tu Pull Request
+### 7. Antes de abrir tu Pull Request
+
+Una última cosa antes de mandar tu solución: este repositorio tiene una [licencia](LICENSE.md) que protege el proyecto. Al abrir tu Pull Request, estás aceptando que tu aporte pase a formar parte del repositorio bajo esos términos — pero tranquilo, tu código sigue siendo tuyo y vas a aparecer como su autor. Si te interesa el detalle, podés leer el archivo `LICENSE.md`, aunque no es obligatorio para seguir con los pasos.
+
+### 8. Abrí tu Pull Request
 
 Un fork es personal: todavía no lo puede ver nadie en el repositorio original. Por eso el último paso es crear tu primer Pull Request.
 
