@@ -33,6 +33,7 @@ saavedra-dev-community/
 ├── 3.0-avanzado/    → Desafíos nivel 3.0 – 3.99
 │
 ├── CONTRIBUTING.md  → Cómo contribuir al proyecto
+├── LICENSE.md       → Licencia y condiciones de uso
 └── README.md        → Este archivo
 ```
 
@@ -68,3 +69,7 @@ Para más detalles, consultá el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
 - Git & GitHub
 
 ---
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia **CC BY-NC 4.0** (Atribución-NoComercial). Podés usar y adaptar el contenido dando crédito, pero no con fines comerciales. Más detalles en [LICENSE.md](LICENSE.md).
