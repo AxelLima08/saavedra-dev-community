@@ -94,6 +94,16 @@ Las contribuciones que no respeten estas pautas serán rechazadas.
 
 ---
 
+## ©️ Licencia y qué implica enviar un Pull Request
+
+Este repositorio está protegido bajo licencia [CC BY-NC 4.0](LICENSE.md) (Atribución-NoComercial).
+
+Al enviar un Pull Request, aceptás que tu aporte se incorpora al proyecto bajo los términos de esa licencia: vas a conservar el crédito de autoría por lo que hiciste, pero el proyecto puede seguir usando y redistribuyendo tu contribución, incluso en futuras versiones del repositorio.
+
+> Si aportás una solución (`solucion.cpp`), ese código es y sigue siendo tuyo — el repositorio simplemente queda habilitado a usarlo como parte del proyecto. Más detalles en [LICENSE.md](LICENSE.md).
+
+---
+
 ## 🏆 ¿Querés proponer un nuevo desafío?
 
 Por el momento, los desafíos son agregados exclusivamente por el administrador del repositorio para garantizar la calidad y coherencia del proyecto. Si tenés una idea para un desafío, podés abrir un [**Issue**](../../issues) describiéndola y será considerada.
