@@ -1,6 +1,5 @@
 # saavedra-dev-community
 
-
 > 🚧 Proyecto en construcción — se está trabajando en traer nuevos desafíos.
 
 ¡Bienvenidos al espacio colaborativo de desarrollo para estudiantes de la ET N° 17 D.E. 13 Cornelio Saavedra! Este repositorio está diseñado para que pongamos a prueba nuestra lógica, compartamos soluciones y mejoremos nuestras habilidades en programación y electrónica.
@@ -29,12 +28,12 @@ Los desafíos están clasificados para que puedas medir tu progreso:
 ```
 saavedra-dev-community/
 │
-├── aprendiz/       → Desafíos nivel 1.0 – 1.99
-├── competente/     → Desafíos nivel 2.0 – 2.99
-├── avanzado/       → Desafíos nivel 3.0 – 3.99
+├── 1.0-aprendiz/    → Desafíos nivel 1.0 – 1.99
+├── 2.0-competente/  → Desafíos nivel 2.0 – 2.99
+├── 3.0-avanzado/    → Desafíos nivel 3.0 – 3.99
 │
-├── CONTRIBUTING.md → Cómo contribuir al proyecto
-└── README.md       → Este archivo
+├── CONTRIBUTING.md  → Cómo contribuir al proyecto
+└── README.md        → Este archivo
 ```
 
 Cada desafío tiene su propia carpeta con:
@@ -47,8 +46,10 @@ Cada desafío tiene su propia carpeta con:
 
 1. **Forkeá** este repositorio
 2. **Cloná** tu fork en tu computadora
-3. Colocá tu código en el archivo `soluciones.cpp` de la carpeta `solucion/` del ejercicio correspondiente
+3. Colocá tu código en el archivo `solucion.cpp` de la carpeta `soluciones/` del ejercicio correspondiente
 4. Subí los cambios y abrí un **Pull Request**
+
+> **¿Usás PlatformIO?** No hay problema: la estructura del código (`setup()` y `loop()`) es la misma que en Arduino IDE. Solo agregá al principio de tu `solucion.cpp` el contenido de tu `platformio.ini` como comentario, así sabemos qué board y configuración usaste.
 
 Para más detalles, consultá el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
 

@@ -13,9 +13,11 @@ Si ya sabés manejarte, los pasos son:
 
 1. **Forkeá** este repositorio (copia el repo en tu cuenta de GitHub)
 2. **Cloná** tu fork en tu computadora
-3. Colocá tu solución en el archivo `soluciones.cpp` del desafío correspondiente
+3. Colocá tu solución en el archivo `solucion.cpp` del desafío correspondiente
 4. Completá el archivo `EXPLICACION.md` de ese desafío incluyendo el link de tu simulación y los detalles solicitados
 5. Subí los cambios y abrí un **Pull Request**
+
+> **¿Usás PlatformIO?** No hace falta nada especial: la estructura del código (`setup()` y `loop()`) es la misma que en Arduino IDE. Solo agregá al principio de `solucion.cpp` el contenido de tu `platformio.ini` como comentario, así sabemos qué board y configuración usaste.
 
 ---
 
@@ -28,7 +30,7 @@ Las soluciones se revisan **en orden de llegada**. Esto significa:
 - Una vez corregida, tu solución vuelve a la cola **al final** — el lugar en la cola no se reserva
 - Si la solución siguiente está correcta, esa será la que quede en el repositorio
 
-Esto incentiva enviar soluciones bien pensadas desde el principio.
+Los tiempos de revisión pueden variar según la cantidad de Pull Requests en cola. Esto incentiva enviar soluciones bien pensadas desde el principio.
 
 ---
 
@@ -94,7 +96,7 @@ Las contribuciones que no respeten estas pautas serán rechazadas.
 
 ## 🏆 ¿Querés proponer un nuevo desafío?
 
-Por el momento, los desafíos son agregados exclusivamente por el administrador del repositorio para garantizar la calidad y coherencia del proyecto. Si tenés una idea para un desafío, podés abrir un **Issue** describiéndola y será considerada.
+Por el momento, los desafíos son agregados exclusivamente por el administrador del repositorio para garantizar la calidad y coherencia del proyecto. Si tenés una idea para un desafío, podés abrir un [**Issue**](../../issues) describiéndola y será considerada.
 
 ---
 

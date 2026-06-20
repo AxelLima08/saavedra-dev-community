@@ -28,6 +28,14 @@ El repositorio principal de los desafíos está guardado en una cuenta y está p
 
 Un commit es mucho más que apretar Ctrl + S. Funciona como un checkpoint o punto de restauración del código. Imaginá que estás programando algo avanzado, con muchas líneas de código, donde todo ya funciona bien. Si te ponés a modificar cosas para agregar una función nueva, corrés el riesgo de romper lo que ya tenías y no recordar cómo estaba antes. Para evitar eso, hacés un commit: si algo deja de funcionar, podés volver exactamente a ese punto de guardado donde todo andaba bien.
 
+Por ejemplo, un commit típico de este proyecto podría llamarse así:
+
+```bash
+git commit -m "feat: ejercicio blink solucionado"
+```
+
+Ese mensaje queda guardado para siempre en el historial, así que cualquiera (¡incluso vos mismo, meses después!) puede entender qué cambió en ese punto exacto.
+
 ### Pull Request (PR — tu propuesta de entrega)
 
 Traducido literalmente es una "petición de arrastre", pero en la práctica es la entrega del ejercicio. Cuando resolvés un desafío en tu copia personal (tu Fork) y comprobás que funciona correctamente, abrís un Pull Request. Con esto le avisás al administrador del repositorio que ya terminaste el desafío y le entregás tu propuesta de solución para que la revise y, si está todo en orden, la fusione con el proyecto principal.
@@ -38,13 +46,13 @@ Este es el premio mayor en GitHub. Cuando tu Pull Request es revisado, aprobado 
 
 ## ¿Qué es Git?
 
-Git es como una máquina del tiempo para tus archivos de código, pero que solo funciona cuando vos decidís activarla. En vez de duplicar carpetas y guardar archivos con nombres como "codigo_final_v2_este_si", le indicás a Git de forma manual cuándo querés registrar un avance importante de tu circuito. En ese momento, la herramienta guarda un registro de los cambios realizados hasta ahí. Esto te da la tranquilidad de modificar, borrar o cambiar lo que necesites: si el código se rompe, podés deshacer los cambios y volver exactamente al punto anterior donde todo funcionaba. El control sobre qué se guarda y cuándo es completamente tuyo.
+Git es como una máquina del tiempo para tus archivos de código, pero que solo funciona cuando vos decidís activarla. En vez de duplicar carpetas y guardar archivos con nombres como "codigo_final_v2_este_si", le indicás a Git de forma manual cuándo querés registrar un avance importante de tu circuito. En ese momento, la herramienta guarda un registro de los cambios realizados hasta ahí. Esto te da la tranquilidad de modificar, borrar o cambiar lo que necesites: si el código se rompe, podés deshacer los cambios y volver exactamente al punto anterior donde todo funcionaba. **El control sobre qué se guarda y cuándo es completamente tuyo.**
 
 ## ¿Qué es GitHub?
 
 GitHub es el paso siguiente: el puente en internet que conecta tu computadora con el resto del mundo. Si Git es la herramienta que usás dentro de tu máquina para registrar tus avances, GitHub es como una red social combinada con un espacio en la nube donde guardar esos registros. Es el lugar donde subís tus carpetas de código para que no se pierdan si algo le pasa a tu computadora, pero también es la plataforma que permite que muchas personas colaboren en un mismo proyecto de forma ordenada, compartiendo soluciones y mejorando el código entre todos sin generar un caos de archivos.
 
-Si te querés dedicar a la programación, tu cuenta de GitHub se convierte, literalmente, en tu currículum de la vida real. Hoy en día, las empresas y los equipos de desarrollo quieren ver qué sabés hacer en la práctica antes que un papel que diga dónde estudiaste. Tu perfil funciona como una vidriera pública: muestra los proyectos que armás, cómo pensás los problemas, qué tan prolijo sos y cuánto tiempo le dedicás a practicar.
+Si te querés dedicar a la programación, **tu cuenta de GitHub se convierte, literalmente, en tu currículum de la vida real**. Hoy en día, las empresas y los equipos de desarrollo quieren ver qué sabés hacer en la práctica antes que un papel que diga dónde estudiaste. Tu perfil funciona como una vidriera pública: muestra los proyectos que armás, cómo pensás los problemas, qué tan prolijo sos y cuánto tiempo le dedicás a practicar.
 
 Al resolver los ejercicios de este repositorio y enviar tu solución a través de un Pull Request, estás haciendo mucho más que practicar código. Una vez que tu solución sea revisada y aprobada, se fusionará con el proyecto principal y GitHub te registrará automáticamente y de forma permanente como colaborador oficial del repositorio. Para cualquier selector o empresa, entrar a tu perfil y ver que ya sabés trabajar con repositorios reales, que entendés el flujo de trabajo de la industria (Forks, Commits, Pull Requests) y que colaboraste en una comunidad, te posiciona muy por encima de quien nunca haya tocado la herramienta. Es tu oportunidad de empezar a construir experiencia real.
 
@@ -77,16 +85,20 @@ Suponiendo que ya tenés tu código listo, comentado, y la explicación junto al
 3. También hay una carpeta `soluciones`, donde está el archivo `solucion.cpp` (ahí va tu código de respuesta) y un archivo `EXPLICACION.md`.
 4. En `EXPLICACION.md`, completá con tu usuario de GitHub, borrá el texto `"TU_LINK_VA_AQUI"` y poné el link de la simulación con tu código. Donde dice `"Escribí acá tu explicación…"`, borrá el placeholder y explicá con tus palabras la solución del ejercicio y cómo llegaste a ella.
 
+> **¿Programaste con PlatformIO en vez de Arduino IDE?** No hay ningún problema: la estructura del código (`setup()` y `loop()`) es exactamente la misma en ambos casos, ya que los dos usan el framework de Arduino. Lo único que tenés que hacer es agregar, al principio de tu `solucion.cpp`, el contenido de tu `platformio.ini` como comentario. Así sabemos qué board y configuración usaste para poder reproducir tu simulación si hace falta.
+
 ### 5. Abrí una terminal
 
 Al costado izquierdo del editor vas a ver tres líneas (menú); hacé clic ahí y elegí **Terminal → Nueva terminal**.
 
 Van a aparecer dos botones azules; el que nos interesa es el que dice **"Continuar trabajando con GitHub Codespaces"**. En la barra de búsqueda de VS Code van a aparecer dos opciones:
 
-1. Elegí **"Sí, continuar con mis cambios de trabajo"**.
-2. Luego **"Iniciar sesión con GitHub"**.
+a. Elegí **"Sí, continuar con mis cambios de trabajo"**.
+b. Luego **"Iniciar sesión con GitHub"**.
 
 Te va a volver a pedir iniciar sesión: confirmá con **Permitir**, **Continuar** y **Autorizar**. Si te pide confirmar el acceso, completalo. Después elegí la versión de **2 cores / 8 GB de RAM**, y se va a abrir una nueva ventana.
+
+> Los nombres exactos de los botones pueden variar levemente si GitHub actualiza su interfaz, pero el flujo general (iniciar sesión, autorizar y elegir la versión del entorno) se mantiene igual.
 
 ### 6. Subí tu código
 
@@ -124,6 +136,6 @@ Del resto nos encargamos nosotros: revisaremos tu código, tus comentarios y tu 
 
 ## ¿Necesitás ayuda?
 
-Si te quedaste atascado en alguna parte del proceso, podés escribir explicando el inconveniente a:
+Si te quedaste atascado en alguna parte del proceso, no te preocupes: no hay pregunta tonta, todos arrancamos en algún momento sin saber nada de esto. Escribí explicando el inconveniente a:
 
 **axellima726@gmail.com**
