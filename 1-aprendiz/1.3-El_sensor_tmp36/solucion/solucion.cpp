@@ -1,4 +1,4 @@
-// Archivo para la solución del ejercicio nombre
+// Archivo para la solución del ejercicio El sensor TMP36
 // autor: Saavedra Dev Community - GIT_USER
 void setup(){
 
