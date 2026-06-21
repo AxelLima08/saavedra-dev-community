@@ -83,7 +83,8 @@ Suponiendo que ya tenés tu código listo, comentado, y la explicación junto al
 1. Desplegá la carpeta de la dificultad correspondiente: `1.0-aprendiz`, `2.0-competente` o `3.0-avanzado`.
 2. Dentro vas a encontrar las carpetas de los ejercicios. Por ejemplo, para el ejercicio *blink* dentro de `1.0-aprendiz`, vas a ver un `README.md` con la consigna, hints y restricciones.
 3. También hay una carpeta `soluciones`, donde está el archivo `solucion.cpp` (ahí va tu código de respuesta) y un archivo `EXPLICACION.md`.
-4. En `EXPLICACION.md`, completá con tu usuario de GitHub, borrá el texto `"TU_LINK_VA_AQUI"` y poné el link de la simulación con tu código. Donde dice `"Escribí acá tu explicación…"`, borrá el placeholder y explicá con tus palabras la solución del ejercicio y cómo llegaste a ella.
+4. En `solucion.cpp`, reemplazá el texto `GIT_USER` en el comentario `// autor: Saavedra Dev Community - GIT_USER` por tu nombre de usuario de GitHub. Por ejemplo: `// autor: Saavedra Dev Community - AxelLima08`.
+5. En `EXPLICACION.md`, completá con tu usuario de GitHub, borrá el texto `"TU_LINK_VA_AQUI"` y poné el link de la simulación con tu código. Donde dice `"Escribí acá tu explicación…"`, borrá el placeholder y explicá con tus palabras la solución del ejercicio y cómo llegaste a ella.
 
 > **¿Programaste con PlatformIO en vez de Arduino IDE?** No hay ningún problema: la estructura del código (`setup()` y `loop()`) es exactamente la misma en ambos casos, ya que los dos usan el framework de Arduino. Lo único que tenés que hacer es agregar, al principio de tu `solucion.cpp`, el contenido de tu `platformio.ini` como comentario. Así sabemos qué board y configuración usaste para poder reproducir tu simulación si hace falta.
 
