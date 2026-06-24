@@ -39,7 +39,7 @@ saavedra-dev-community/
 
 Cada desafío tiene su propia carpeta con:
 - Un `README.md` explicando el enunciado y los requisitos
-- Una carpeta `soluciones/` donde los participantes colocan su código
+- Una carpeta `solucion/` donde los participantes colocan su código
 
 ---
 
@@ -47,7 +47,7 @@ Cada desafío tiene su propia carpeta con:
 
 1. **Forkeá** este repositorio
 2. **Cloná** tu fork en tu computadora
-3. Colocá tu código en el archivo `solucion.cpp` de la carpeta `soluciones/` del ejercicio correspondiente
+3. Colocá tu código en el archivo `solucion.cpp` de la carpeta `solucion/` del ejercicio correspondiente
 4. Subí los cambios y abrí un **Pull Request**
 
 > **¿Usás PlatformIO?** No hay problema: la estructura del código (`setup()` y `loop()`) es la misma que en Arduino IDE. Solo agregá al principio de tu `solucion.cpp` el contenido de tu `platformio.ini` como comentario, así sabemos qué board y configuración usaste.

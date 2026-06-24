@@ -37,7 +37,7 @@ explícitamente como salidas en `setup()` usando `pinMode()`.
 ## 📁 ¿Cómo subir tu solución?
 
 1. Forkeá este repositorio
-2. En la carpeta `soluciones/` encontraras un archivo `solucion.cpp` pegar la respuesta ahí y completa `EXPLICACION.md`.
+2. En la carpeta `solucion/` encontrarás un archivo `solucion.cpp` pegá tu respuesta ahí y completá `EXPLICACION.md`.
 3. Abrí un **Pull Request**
 
 ¿Es tu primera vez usando Git y GitHub? 👉 [**Guía de Git y GitHub para principiantes**](../../GUIA_PARA_PRINCIPIANTES.md)
