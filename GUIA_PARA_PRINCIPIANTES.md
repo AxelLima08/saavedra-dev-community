@@ -70,13 +70,25 @@ Una vez creada la cuenta, entrá a la página del repositorio `AxelLima08/saaved
 
 Luego presioná la opción **Fork** (al lado de la estrella). No modifiques nada y confirmá con **Create fork**.
 
-### 3. Abrí el editor de código en el navegador
+---
+
+### 3. Elegí cómo vas a trabajar
+
+A partir de acá tenés dos opciones. Elegí la que te resulte más cómoda:
+
+---
+
+## 🌐 Opción A — VS Code en el navegador (sin instalar nada)
+
+Esta es la opción más rápida para arrancar: no requiere instalar ningún programa, todo corre desde el navegador.
+
+### A.1. Abrí el editor en el navegador
 
 Ya en tu fork del repositorio, presioná la tecla `.` en tu teclado para abrir VS Code directamente en el navegador.
 
 Te va a pedir iniciar sesión con GitHub: hacé clic en **Permitir** y, en la ventana que se abre, iniciá sesión. Lo primero que vas a ver es el `README.md` del proyecto; podés cerrar esa ventana.
 
-### 4. Preparé tu solución
+### A.2. Preparé tu solución
 
 Suponiendo que ya tenés tu código listo, comentado, y la explicación junto al link de la simulación de Tinkercad o Wokwi:
 
@@ -84,11 +96,11 @@ Suponiendo que ya tenés tu código listo, comentado, y la explicación junto al
 2. Dentro vas a encontrar las carpetas de los ejercicios. Por ejemplo, para el ejercicio *blink* dentro de `1.0-aprendiz`, vas a ver un `README.md` con la consigna, hints y restricciones.
 3. También hay una carpeta `soluciones`, donde está el archivo `solucion.cpp` (ahí va tu código de respuesta) y un archivo `EXPLICACION.md`.
 4. En `solucion.cpp`, reemplazá el texto `GIT_USER` en el comentario `// autor: Saavedra Dev Community - GIT_USER` por tu nombre de usuario de GitHub. Por ejemplo: `// autor: Saavedra Dev Community - AxelLima08`.
-5. En `EXPLICACION.md`, completá con tu usuario de GitHub, borrá el texto `"TU_LINK_VA_AQUI"` y poné el link de la simulación con tu código. Donde dice `"Escribí acá tu explicación…"`, borrá el placeholder y explicá con tus palabras la solución del ejercicio y cómo llegaste a ella.
+5. En `EXPLICACION.md`, completá con tu usuario de GitHub, borrá el texto `"TU_LINK_VA_AQUI"` y poné el link de la simulación con tu código. Donde dice `"Escribí acá tu explicación…"`, borrá esa oración y explicá con tus palabras la solución del ejercicio y cómo llegaste a ella.
 
 > **¿Programaste con PlatformIO en vez de Arduino IDE?** No hay ningún problema: la estructura del código (`setup()` y `loop()`) es exactamente la misma en ambos casos, ya que los dos usan el framework de Arduino. Lo único que tenés que hacer es agregar, al principio de tu `solucion.cpp`, el contenido de tu `platformio.ini` como comentario. Así sabemos qué board y configuración usaste para poder reproducir tu simulación si hace falta.
 
-### 5. Abrí una terminal
+### A.3. Abrí una terminal
 
 Al costado izquierdo del editor vas a ver tres líneas (menú); hacé clic ahí y elegí **Terminal → Nueva terminal**.
 
@@ -101,34 +113,103 @@ Te va a volver a pedir iniciar sesión: confirmá con **Permitir**, **Continuar*
 
 > Los nombres exactos de los botones pueden variar levemente si GitHub actualiza su interfaz, pero el flujo general (iniciar sesión, autorizar y elegir la versión del entorno) se mantiene igual.
 
-### 6. Subí tu código
-
-Andá al archivo `solucion.cpp` del ejercicio correspondiente y pegá tu solución, además de completar el `EXPLICACION.md` como se indicó antes.
+### A.4. Subí tu código
 
 Una vez completo el ejercicio, volvé a la terminal y ejecutá los siguientes comandos en orden:
 
 ```bash
 git add .
 ```
+
 Este comando prepara los archivos que vas a subir con el commit. El argumento `.` le indica a Git que guarde todos los archivos modificados.
 
 ```bash
 git commit -m "feat: ejercicio NOMBRE_DEL_EJERCICIO solucionado"
 ```
+
 Esto crea el commit, el punto de guardado de tu avance. Por ahora esto es solo un guardado local.
 
 ```bash
 git push
 ```
+
 Esto sube el commit a tu fork del repositorio en GitHub. Si todo salió bien, al entrar a tu fork (`https://github.com/NombreDeUsuario/saavedra-dev-community`) vas a poder ver tus cambios reflejados.
 
-### 7. Antes de abrir tu Pull Request
+---
+
+## 💻 Opción B — VS Code de escritorio (instalado en tu computadora)
+
+Esta opción es la forma en que trabajan los desarrolladores en la industria: todo corre en tu máquina, tenés más control y no dependés del navegador.
+
+### B.1. Requisitos previos
+
+Antes de arrancar, asegurate de tener instalado:
+
+- [Git](https://git-scm.com/downloads)
+- [VS Code](https://code.visualstudio.com/)
+
+### B.2. Configurá tu identidad en Git
+
+Git necesita saber quién sos para asociar tus commits a tu cuenta de GitHub. Abrí una terminal (en Windows podés usar Git Bash o la terminal de VS Code) y ejecutá estos dos comandos, reemplazando los valores con los tuyos:
+
+```bash
+git config --global user.name "TuUsuarioDeGitHub"
+git config --global user.email "tu@email.com"
+```
+
+> Usá el mismo email que registraste en GitHub. Esto es una configuración global: solo tenés que hacerlo una vez en tu computadora.
+
+### B.3. Cloná tu fork
+
+Entrá a la página de tu fork en GitHub (`https://github.com/NombreDeUsuario/saavedra-dev-community`), hacé clic en el botón verde **Code** y copiá el link que aparece bajo **HTTPS**.
+
+Luego, en la terminal, navegá a la carpeta donde querés guardar el proyecto y ejecutá:
+
+```bash
+git clone LINK_DE_TU_FORK
+```
+
+Esto va a descargar una copia completa del repositorio en tu computadora. Una vez terminado, abrí la carpeta descargada con VS Code.
+
+### B.4. Preparé tu solución
+
+El proceso es idéntico al de la opción A:
+
+1. Desplegá la carpeta de la dificultad correspondiente: `1.0-aprendiz`, `2.0-competente` o `3.0-avanzado`.
+2. Dentro vas a encontrar las carpetas de los ejercicios. Por ejemplo, para el ejercicio *blink* dentro de `1.0-aprendiz`, vas a ver un `README.md` con la consigna, hints y restricciones.
+3. También hay una carpeta `soluciones`, donde está el archivo `solucion.cpp` (ahí va tu código de respuesta) y un archivo `EXPLICACION.md`.
+4. En `solucion.cpp`, reemplazá el texto `GIT_USER` en el comentario `// autor: Saavedra Dev Community - GIT_USER` por tu nombre de usuario de GitHub. Por ejemplo: `// autor: Saavedra Dev Community - AxelLima08`.
+5. En `EXPLICACION.md`, completá con tu usuario de GitHub, borrá el texto `"TU_LINK_VA_AQUI"` y poné el link de la simulación con tu código. Donde dice `"Escribí acá tu explicación…"`, borrá esa oración y explicá con tus palabras la solución del ejercicio y cómo llegaste a ella.
+
+> **¿Programaste con PlatformIO en vez de Arduino IDE?** No hay ningún problema: la estructura del código (`setup()` y `loop()`) es exactamente la misma en ambos casos. Lo único que tenés que hacer es agregar, al principio de tu `solucion.cpp`, el contenido de tu `platformio.ini` como comentario.
+
+### B.5. Subí tu código
+
+Con la terminal de VS Code abierta (o cualquier terminal dentro de la carpeta del proyecto), ejecutá los siguientes comandos en orden:
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "feat: ejercicio NOMBRE_DEL_EJERCICIO solucionado"
+```
+
+```bash
+git push
+```
+
+Si es la primera vez que hacés push desde esta computadora, Git puede pedirte que inicies sesión en GitHub. Seguí las instrucciones que aparecen en pantalla. Una vez terminado, entrá a tu fork en GitHub y vas a ver los cambios reflejados.
+
+---
+
+## Antes de abrir tu Pull Request
 
 Una última cosa antes de mandar tu solución: este repositorio tiene una [licencia](LICENSE.md) que protege el proyecto. Al abrir tu Pull Request, estás aceptando que tu aporte pase a formar parte del repositorio bajo esos términos — pero tranquilo, tu código sigue siendo tuyo y vas a aparecer como su autor. Si te interesa el detalle, podés leer el archivo `LICENSE.md`, aunque no es obligatorio para seguir con los pasos.
 
-### 8. Abrí tu Pull Request
+## Abrí tu Pull Request
 
-Un fork es personal: todavía no lo puede ver nadie en el repositorio original. Por eso el último paso es crear tu primer Pull Request.
+Un fork es personal: todavía no lo puede ver nadie en el repositorio original. Por eso el último paso es crear tu primer Pull Request. Este paso es igual independientemente de la opción que hayas elegido.
 
 1. En la página principal de tu fork va a aparecer un mensaje similar a: *"This branch is 1 commit ahead of AxelLima08/saavedra-dev-community:main."*
 2. Al costado vas a ver un botón **Contribute**. Si estás seguro de que hiciste todo correctamente, hacé clic en **Open pull request**.
