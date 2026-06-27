@@ -220,6 +220,36 @@ Del resto nos encargamos nosotros: revisaremos tu código, tus comentarios y tu 
 
 > **Importante: mandar un solo ejercicio por Pull Request.**
 
+## Para las próximas veces: sincronizá tu fork
+
+Antes de ponerte a trabajar en un nuevo ejercicio, es importante que tu fork esté actualizado con el repositorio original. Si el repositorio recibió nuevos ejercicios o correcciones desde la última vez que trabajaste, tu copia personal va a estar desactualizada y puede generar conflictos al abrir el Pull Request.
+
+### 1. Sincronizá desde GitHub
+
+Entrá a la página de tu fork en GitHub. Si hay cambios nuevos en el repositorio original, vas a ver un mensaje similar a:
+
+*"This branch is X commits behind AxelLima08/saavedra-dev-community:main."*
+
+Hacé clic en **Sync fork** y luego en **Update branch**. Esto actualiza tu fork en GitHub con los últimos cambios del repositorio original.
+
+### 2. Bajá los cambios a tu entorno de trabajo
+
+Después del Sync fork, según la opción que uses:
+
+- **Opción A (navegador):** abrí la terminal del Codespace y ejecutá:
+
+  ```bash
+  git pull
+  ```
+
+- **Opción B (escritorio):** abrí la terminal de VS Code dentro de la carpeta del proyecto y ejecutá:
+
+  ```bash
+  git pull
+  ```
+
+En ambos casos, `git pull` baja los cambios que acabás de sincronizar en GitHub a tu entorno local. Una vez hecho esto, ya podés arrancar con el siguiente ejercicio.
+
 ## ¿Necesitás ayuda?
 
 Si te quedaste atascado en alguna parte del proceso, no te preocupes: no hay pregunta tonta, todos arrancamos en algún momento sin saber nada de esto. Escribí explicando el inconveniente a:
