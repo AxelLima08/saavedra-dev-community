@@ -1,4 +1,4 @@
-# 🚀 Solución al Desafío: [_nombre_]
+# 🚀 Solución al Desafío: [El potenciómetro]
 
 ### 👤 Autor: @[TuUsuarioDeGitHub]
 
